@@ -2,10 +2,11 @@
 #include <stdlib.h>
 
 #define INF -1
+#define S 1001
 
-int pontes[1001][1001];
-int distances[1001];
-int visited[1001]; //set s
+int pontes[S][S];
+int distances[S];
+int visited[S]; //set s
 
 int sum(int a, int b){
 	return (a+b)*( a!=INF && b!=INF) + INF*(a == INF || b == INF);
