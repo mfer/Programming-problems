@@ -17,8 +17,8 @@ int bt(int a, int b){
 }
 
 int take_min(int size){
-	int closest, minimum=INF;
-	for(int i=0; i<size; i++)
+	int i, closest, minimum=INF;
+	for(i=0; i<size; i++)
 		if (bt(minimum,distances[i]) && !visited[i] ){
 			minimum= distances[i];
 			closest= i;
