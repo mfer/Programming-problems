@@ -59,4 +59,5 @@ int main(){
 		i++;
 	}
 	printf("%d", distances[N+1]);
+	return 0;
 }
