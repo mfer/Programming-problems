@@ -1,6 +1,7 @@
 /*
  * Alexandre Martins
  * SPOJBR 1356 - Parque Jurassico
+ * http://alemart.users.sourceforge.net/progchallenges.html
  */
 #include <stdio.h>
 #include <string.h>
